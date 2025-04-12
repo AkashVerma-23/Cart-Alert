@@ -1,0 +1,52 @@
+.nearby-stores {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nearby-stores h2 {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.tracking-inactive, .no-stores {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tracking-inactive p, .no-stores p {
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.stores-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.store-item {
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.store-name {
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.store-distance {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.tracking-controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}

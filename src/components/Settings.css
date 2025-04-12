@@ -1,0 +1,44 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.settings h2 {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.api-section {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.api-info {
+  color: #666;
+  font-size: 0.9em;
+  margin: 10px 0 15px 0;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.settings-section {
+  margin-top: 20px;
+}
+
+.settings-section h3 {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.settings-section p {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 0.95em;
+}

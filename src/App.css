@@ -1,0 +1,65 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-header {
+  background-color: #4285f4;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-indicator {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.status-active {
+  background-color: #34a853;
+}
+
+.status-inactive {
+  background-color: #ea4335;
+}
+
+.tab-container {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  padding: 15px 20px;
+  color: #666;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  color: #4285f4;
+  border-bottom: 2px solid #4285f4;
+  font-weight: 500;
+}
+
+.app-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

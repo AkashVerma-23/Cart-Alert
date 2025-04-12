@@ -1,0 +1,24 @@
+.ImageA {
+    background-color: rgba(165, 215, 244, 0.926);
+  }
+  #logo{
+    animation-name: logo;
+    animation-duration: 5s;
+  }
+  #logo img{
+    width: 30%;
+    margin-top: 10vw;
+    padding-bottom: 20vw;
+  }
+  #logo p{
+    text-align: center;
+  }
+  @keyframes logo {
+    0%{
+      opacity: 0;
+    }
+    40%{
+      opacity: 1;
+      transform: scale(1.4);
+    }
+}
