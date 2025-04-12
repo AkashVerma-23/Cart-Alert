@@ -1,12 +1,28 @@
-# React + Vite
+# Cart Alert
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*CartAlert* is a smart shopping reminder web application that helps users remember what to buy when they are near relevant stores. Powered by Google Maps and built using React.js, the app makes sure you never forget an item on your shopping list again.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Add and manage your shopping list
+- Detect nearby stores using Google Maps and Places API
+- Get real-time location-based alerts for items on your list
+- Clean and responsive user interface built with React
+- Notifications to remind you when you're near a store
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- *Frontend*: React.js, JavaScript, HTML, CSS
+- *APIs*: Google Maps JavaScript API, Google Places API, Geolocation API
+- *Notifications*: Web Push / React Notification libraries
+- *Storage*: LocalStorage for saving shopping data
+
+---
+
+### Prerequisites
+- Node.js and npm installed
+- Google Maps & Places API key
