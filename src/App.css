@@ -40,8 +40,39 @@
   display: flex;
   border-bottom: 1px solid #ddd;
   background-color: white;
+  overflow: auto;
+  font-size: 18px;
 }
-
+@media (max-width:430px) {
+  .tab-container{
+    font-size: 3vw;
+  }
+  .word-slide pre{
+    padding: 5px;
+    font-size: 10px;
+  }
+}
+.word-slide{
+  line-height: 2vw;
+  margin-top: 0.3vw;
+  margin-bottom: 0.3vw;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: rgba(15, 112, 231, 0.66);
+}
+.word-slide pre{
+  color: white;
+  animation: slide 25s linear infinite;
+}
+@keyframes slide {
+  from{
+    transform: translateX(900px);
+  }
+  to{
+    transform: translateX(-1560px);
+  }
+  
+}
 .tab-button {
   background: none;
   border: none;
@@ -52,11 +83,15 @@
 }
 
 .tab-button.active {
-  color: #4285f4;
+  color: #065ee1;
   border-bottom: 2px solid #4285f4;
   font-weight: 500;
 }
-
+.tab-button:hover{
+  background-color: #5c94f0bc;
+  color: #000206;
+  transition: 300ms;
+}
 .app-content {
   background-color: white;
   padding: 20px;

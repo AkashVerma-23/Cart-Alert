@@ -8,11 +8,18 @@
   #logo img{
     width: 30%;
     margin-top: 10vw;
-    padding-bottom: 20vw;
-  }
+    margin-bottom: 20vw;
+}
   #logo p{
     text-align: center;
+}
+@media(max-width:440px){
+  #logo img{
+    margin-top: 35vh;
+    width: 200px;
+    margin-bottom: 65vh;
   }
+}
   @keyframes logo {
     0%{
       opacity: 0;

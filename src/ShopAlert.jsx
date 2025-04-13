@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
+import NearbyStores from "./components/NearbyStores";
+import Settings from "./components/Settings";
 import ShoppingList from "./components/ShoppingList";
 import { useState, useEffect } from "react";
 import Notification from "./components/Notification";
 import { LocationProvider } from "./contexts/LocationContext";
 import { ShoppingProvider } from "./contexts/ShoppingContext";
+import About from "./components/About";
 
 const ShopAlert = () => {
   const [activeTab, setActiveTab] = useState("items");
@@ -46,10 +49,24 @@ const ShopAlert = () => {
             >
               Settings
             </button>
+            <button
+              className={`tab-button ${activeTab === "about" ? "active" : ""}`}
+              onClick={() => setActiveTab("about")}
+            >
+              About
+            </button>
+          </div>
+          <div className="word-slide">
+            <pre>
+              {`Be in the right place,at the right time,with the right list! | Enhancing shopping efficiency with real-time location tracking | Oops!,forgot to buy that again? Not anymore! | Location-based shopping reminders made easy`}
+            </pre>
           </div>
 
           <main className="app-content">
             {activeTab === "items" && <ShoppingList />}
+            {activeTab === "settings" && <Settings />}
+            {activeTab === "stores" && <NearbyStores />}
+            {activeTab === "about" && <About />}
           </main>
 
           {notification && <Notification message={notification} />}

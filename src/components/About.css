@@ -1,0 +1,16 @@
+.settings-section {
+  margin-top: 20px;
+  background-color: #e3edf2b5;
+  padding: 20px;
+  border-radius: 10px;
+}
+.settings-section h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.settings-section p {
+  color: #0f0e0e;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
