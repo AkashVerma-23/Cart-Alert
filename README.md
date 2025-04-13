@@ -12,6 +12,18 @@
 - Clean and responsive user interface built with React
 - Notifications to remind you when you're near a store
 
+## Easy Shop Management:
+
+- View, edit, or remove shop reminders anytime.
+- Organized list of all your saved shop locations.
+
+---
+
+## User-Friendly Interface:
+
+- Simple UI built with React and Vite.
+- Fast performance and responsive design.
+
 ---
 
 ## Tech Stack
@@ -26,3 +38,11 @@
 ### Prerequisites
 - Node.js and npm installed
 - Google Maps & Places API key
+
+---
+
+## Video link:
+https://drive.google.com/file/d/170y_o30OG01_erIMQH9tzH6eIsDgb7WU/view?usp=sharing
+
+## Deployment link:
+https://cart-alert.vercel.app
